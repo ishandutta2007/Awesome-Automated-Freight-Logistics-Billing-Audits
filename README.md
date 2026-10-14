@@ -64,42 +64,42 @@ The table below is **sorted in descending order by Company Size (Market Capitali
 
 An expanded collection of open-source repositories for self-hosting, deterministic reconciliation engines, EDI parsers, and logistics ERP/TMS platforms.
 
-The repositories below are **sorted in descending order by GitHub Star Count**:
+The repositories below are **sorted in descending order by GitHub Stars_Count**:
 
-1. **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** [![GitHub stars](https://img.shields.io/github/stars/NousResearch/hermes-agent?style=social&color=white)](https://github.com/NousResearch/hermes-agent/stargazers)  
+1. **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** [![GitHub_Stars](https://img.shields.io/github/stars/NousResearch/hermes-agent?style=social&color=white)](https://github.com/NousResearch/hermes-agent/stargazers)  
    *Payer-side freight reconciliation plugin for Hermes Agent (MIT).* Imports carrier bills and trip ledgers into a **deterministic local core** (SQLite, WAL, strictly local storage), recalculates line items against contracted rates, and produces **evidence-linked difference lists** for human review. Features **14 MCP tools** over uvx stdio. **Never auto-approves payments or writes back to ERP/TMS**—all final approvals route through an isolated local admin page. Inputs are frozen by cryptographic digest for deterministic re-runs.
 
-2. **[n8n-io/n8n](https://github.com/n8n-io/n8n)** [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
+2. **[n8n-io/n8n](https://github.com/n8n-io/n8n)** [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
    *Fair-code workflow automation platform.* Extensively used in freight audit pipelines to automate carrier PDF invoice ingestion, webhook-based rate lookups, automated tolerance checks, and exception alerts dispatched directly to Slack, Microsoft Teams, or accounting queues.
 
-3. **[odoo/odoo](https://github.com/odoo/odoo)** [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+3. **[odoo/odoo](https://github.com/odoo/odoo)** [![GitHub_Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
    *Open-source ERP suite (LGPL-3.0).* Features robust Purchase, Inventory, and Accounting modules capable of performing 3-way freight invoice matching (Purchase Order vs. Delivery Order / BOL vs. Carrier Bill) and automated landed cost allocation across inventory items.
 
-4. **[frappe/erpnext](https://github.com/frappe/erpnext)** [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
+4. **[frappe/erpnext](https://github.com/frappe/erpnext)** [![GitHub_Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
    *Open-source ERP system (GPL-3.0).* Provides complete Purchase Order and Accounts Payable clearing workflows, Landed Cost Vouchers, shipment tracking reconciliation, and custom scriptable validation triggers for freight rate verification.
 
-5. **[openboxes/openboxes](https://github.com/openboxes/openboxes)** [![GitHub stars](https://img.shields.io/github/stars/openboxes/openboxes?style=social&color=white)](https://github.com/openboxes/openboxes/stargazers)  
+5. **[openboxes/openboxes](https://github.com/openboxes/openboxes)** [![GitHub_Stars](https://img.shields.io/github/stars/openboxes/openboxes?style=social&color=white)](https://github.com/openboxes/openboxes/stargazers)  
    *Open-source supply chain and inventory management platform (EPL-1.0).* Built for complex logistics and humanitarian supply chains; provides structured shipment manifest tracking, purchase order reconciliation, and bill-of-lading auditing.
 
-6. **[karrioapi/karrio](https://github.com/karrioapi/karrio)** [![GitHub stars](https://img.shields.io/github/stars/karrioapi/karrio?style=social&color=white)](https://github.com/karrioapi/karrio/stargazers)  
+6. **[karrioapi/karrio](https://github.com/karrioapi/karrio)** [![GitHub_Stars](https://img.shields.io/github/stars/karrioapi/karrio?style=social&color=white)](https://github.com/karrioapi/karrio/stargazers)  
    *Open-source multi-carrier shipping API & platform (Apache-2.0).* Integrates with 30+ carrier APIs (FedEx, UPS, DHL, USPS, freight carriers) to normalize shipping rates, parse tracking milestones, and serve as an open rating engine benchmark against billed carrier charges.
 
-7. **[emoss08/Trenova](https://github.com/emoss08/Trenova)** [![GitHub stars](https://img.shields.io/github/stars/emoss08/Trenova?style=social&color=white)](https://github.com/emoss08/Trenova/stargazers)  
+7. **[emoss08/Trenova](https://github.com/emoss08/Trenova)** [![GitHub_Stars](https://img.shields.io/github/stars/emoss08/Trenova?style=social&color=white)](https://github.com/emoss08/Trenova/stargazers)  
    *Source-available TMS for over-the-road carriers and shippers (Functional Source License).* Written in Go, PostgreSQL, GraphQL, and React. Covers rating engines (formula-based rate calculation, fuel surcharges, detention rules), billing readiness checks, invoice adjustments, and EDI 204/210 partner workflows.
 
-8. **[Inteligenz/X12Parser](https://github.com/Inteligenz/X12Parser)** [![GitHub stars](https://img.shields.io/github/stars/Inteligenz/X12Parser?style=social&color=white)](https://github.com/Inteligenz/X12Parser/stargazers)  
+8. **[Inteligenz/X12Parser](https://github.com/Inteligenz/X12Parser)** [![GitHub_Stars](https://img.shields.io/github/stars/Inteligenz/X12Parser?style=social&color=white)](https://github.com/Inteligenz/X12Parser/stargazers)  
    *Open-source .NET C# ANSI ASC X12 parser implementation.* Reads, validates, and deserializes EDI 210 (Freight Details and Invoice), EDI 204 (Motor Carrier Load Tender), and EDI 214 (Transportation Carrier Shipment Status) transaction sets into structured object models.
 
-9. **[aaronhuggins/node-x12](https://github.com/aaronhuggins/node-x12)** [![GitHub stars](https://img.shields.io/github/stars/aaronhuggins/node-x12?style=social&color=white)](https://github.com/aaronhuggins/node-x12/stargazers)  
+9. **[aaronhuggins/node-x12](https://github.com/aaronhuggins/node-x12)** [![GitHub_Stars](https://img.shields.io/github/stars/aaronhuggins/node-x12?style=social&color=white)](https://github.com/aaronhuggins/node-x12/stargazers)  
    *Streaming ASC X12 parser, generator, and query engine for Node.js.* Supports stream-based validation and parsing of high-volume freight billing EDI files into JSON schema objects for automated reconciliation workflows.
 
-10. **[Gravqc/Logistic-Audit-Agent](https://github.com/Gravqc/Logistic-Audit-Agent)** [![GitHub stars](https://img.shields.io/github/stars/Gravqc/Logistic-Audit-Agent?style=social&color=white)](https://github.com/Gravqc/Logistic-Audit-Agent/stargazers)  
+10. **[Gravqc/Logistic-Audit-Agent](https://github.com/Gravqc/Logistic-Audit-Agent)** [![GitHub_Stars](https://img.shields.io/github/stars/Gravqc/Logistic-Audit-Agent?style=social&color=white)](https://github.com/Gravqc/Logistic-Audit-Agent/stargazers)  
     *Agentic freight bill processing engine.* Built with FastAPI, LangGraph, and PostgreSQL. Validates carrier invoices against contracted tariffs and proof-of-delivery records, auto-approving compliant invoices and pausing with full state persistence for human review on exceptions.
 
-11. **[Mayur-Techs/Freight-invoice-ai-engine](https://github.com/Mayur-Techs/Freight-invoice-ai-engine)** [![GitHub stars](https://img.shields.io/github/stars/Mayur-Techs/Freight-invoice-ai-engine?style=social&color=white)](https://github.com/Mayur-Techs/Freight-invoice-ai-engine/stargazers)  
+11. **[Mayur-Techs/Freight-invoice-ai-engine](https://github.com/Mayur-Techs/Freight-invoice-ai-engine)** [![GitHub_Stars](https://img.shields.io/github/stars/Mayur-Techs/Freight-invoice-ai-engine?style=social&color=white)](https://github.com/Mayur-Techs/Freight-invoice-ai-engine/stargazers)  
     *Multi-agent AI pipeline for automated logistics invoice reconciliation.* Extracts raw line items from carrier PDF invoices via OCR fallback, cross-references contracted baseline rates, and flags billing discrepancies to prevent carrier overcharges.
 
-12. **[freightbill/freightbill](https://github.com/freightbill/freightbill)** [![GitHub stars](https://img.shields.io/github/stars/freightbill/freightbill?style=social&color=white)](https://github.com/freightbill/freightbill/stargazers)  
+12. **[freightbill/freightbill](https://github.com/freightbill/freightbill)** [![GitHub_Stars](https://img.shields.io/github/stars/freightbill/freightbill?style=social&color=white)](https://github.com/freightbill/freightbill/stargazers)  
     *Production patterns and reference architectures for automating freight bill audits.* Extracts carrier rate contracts, structures discrepancy resolution workflows across LTL/FTL data pipelines, and provides audit benchmark rules.
 
 ---
@@ -135,7 +135,7 @@ Contributions to this ecosystem list are warmly welcomed! 🌟
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-audit-tool`).
 3. 📝 **Add your entry** under the appropriate section following the existing table or list format.
    - For SaaS tools: ensure exact starting tier pricing, free tier / trial limits, and company size metrics are included.
-   - For Open-Source projects: include the GitHub star badge linking to the repository stargazers page.
+   - For Open-Source projects: include the GitHub Stars_Badge linking to the repository stargazers page.
 4. 🚀 **Commit your changes** (`git commit -m "Add [Project Name] to Open-Source list"`).
 5. 📬 **Open a Pull Request** with a concise description of the tool and why it fits this curated list.
 
